@@ -32,19 +32,13 @@
             <div class="col-sm">
                 <form id="form">
                     <div class="form-group">
-                        <label for="name">Name*</label>
+                        <label for="name">Name</label>
                         <input type="text" class="form-control" id="nameInput" placeholder="Your name" />
                     </div>
-                    <div class="form-group">
-                        <label for="photo">Link to Photo*</label>
-                        <input type="text" class="form-control" id="photoInput" placeholder="http://..." />
-                    </div>
-                    <em>*Required field</em>
                     <hr />
                     <div class="form-group">
                         <h3>Question 1</h3>
-                        <label for="q1">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q1">You are rarely the center of attention in a group of people.</label>
                         <select class="form-control" id="q1">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -69,8 +63,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 3</h3>
-                        <label for="q3">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q3">You like going out a lot.</label>
                         <select class="form-control" id="q3">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -82,8 +75,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 4</h3>
-                        <label for="q4">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q4">You generally do and say things quickly wthout stopping to think.</label>
                         <select class="form-control" id="q4">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -95,8 +87,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 5</h3>
-                        <label for="q5">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q5">You rely more on your experience than your imagination.</label>
                         <select class="form-control" id="q5">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -108,8 +99,8 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 6</h3>
-                        <label for="q6">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q6">You would prefer to drive 10mph under a speed limit than 10mph over a speed
+                            limit.</label>
                         <select class="form-control" id="q6">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -121,8 +112,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 7</h3>
-                        <label for="q7">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q7">You don't like waiting for people.</label>
                         <select class="form-control" id="q7">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -134,8 +124,8 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 8</h3>
-                        <label for="q8">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q8">You often take initiative in social situations.
+                        </label>
                         <select class="form-control" id="q8">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -147,8 +137,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 9</h3>
-                        <label for="q9">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q9">You focus on the possibilities rather than the realities.</label>
                         <select class="form-control" id="q9">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -160,8 +149,7 @@
                     </div>
                     <div class="form-group">
                         <h3>Question 10</h3>
-                        <label for="q10">Your mind is always buzzing with unexplored ideas and
-                            plans.</label>
+                        <label for="q10">You see yourself as very emotionally stable.</label>
                         <select class="form-control" id="q10">
                             <option selected>Select an Option</option>
                             <option>1</option>
@@ -273,11 +261,11 @@
                     temp = arr[i];
                     if (temp.sum < lowest) lowest = temp;
                     if (temp.sum > highest) highest = temp;
-                }
+                };
                 $(".modal-body").html(`
                 <p>${lowest.name}</p>
                 <img src="${lowest.photo}">`)
-            }
+            };
         });
     </script>
 </body>
