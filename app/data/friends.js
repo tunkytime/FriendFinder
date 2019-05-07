@@ -1,6 +1,6 @@
 var friendData = [{
-        name: "Alex",
-        photo: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        name: "John",
+        photo: "https://allworldpm.com/wp-content/uploads/2016/10/230x230-avatar-dummy-profile-pic.jpg",
         scores: [
             5,
             4,
@@ -15,8 +15,8 @@ var friendData = [{
         ]
     },
     {
-        name: "Bonnie",
-        photo: "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
+        name: "Jane",
+        photo: "https://pngimage.net/wp-content/uploads/2018/05/dummy-profile-image-png-4.png",
         scores: [
             4,
             3,
